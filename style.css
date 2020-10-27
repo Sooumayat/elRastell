@@ -1,0 +1,133 @@
+                    /*General*/
+
+body{
+margin: 0;
+padding: 0;
+background-color: #30476c;
+font-family: 'Work Sans', sans-serif;
+}
+                    /*Navbarre*/
+nav{
+
+width: auto;
+height: 90px;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+
+
+nav ul li{
+  display: inline;
+  list-style: none;
+  margin-right: 6px;
+}
+
+nav ul li a{
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  margin-right: 24px;
+}
+
+nav img{
+  height: 50px;
+  width: 100px;
+}
+
+nav button{
+  border: 1.5px solid white;
+  border-radius: 50px;
+  background: #30476c;
+  color: white;
+  font-weight: bold;
+  margin-right: 6px;
+  margin-top: 16px;
+  padding: 10px;
+}
+ nav .compte{
+   padding: 10px 16px;
+ }
+                    /*homePage*/
+section{
+  height:auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+}
+
+section img{
+  height: 50px;
+  width: 50px;
+}
+
+.imageOignon img{
+  width: 270px;
+  height: 250px;
+}
+
+.imageOignon{
+  display: flex;
+  flex-direction: column-reverse;
+  width: 220px;
+  padding-bottom: 60px;
+  padding-left: 40px;
+  height:500px;
+}
+
+.imageChampigon{
+  display: flex;
+  flex-direction: column-reverse;
+  padding-bottom: 100px;
+  height:500px;
+}
+
+.imageChampigon img{
+  width: 220px;
+  height: 220px;
+}
+
+.description{
+  width: 500px;
+  height: 300px;
+  color: white;
+  margin-right: 40px;
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+.description p{
+  font-weight: 400;
+  font-size: 0.9em;
+}
+
+.description h1{
+  font-size: 1.8em;
+}
+
+.imageBoutique button{
+ border: 2px solid white;
+ margin-top: 16px;
+ border-radius: 15px;
+ background: #30476c;
+ color: white;
+ padding: 7px;
+ width: 205px;
+ margin-top: 30px;
+ margin-left: 165px;
+ font-weight: bold;
+ }
+
+.imageBoutique img{
+  height: 250px;
+  width: 500px;
+  margin-left: 30px;
+}
+
+.imageBoutique {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding-top: 55px;
+}
